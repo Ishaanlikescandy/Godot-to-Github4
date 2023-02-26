@@ -1,0 +1,17 @@
+[gd_scene format=2]
+
+[node name="main" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 598.0
+color = Color( 0.235294, 0.113725, 0.113725, 1 )
+
+[node name="label" type="Label" parent="."]
+margin_left = 3.99998
+margin_top = 283.0
+margin_right = 680.0
+margin_bottom = 297.0
+rect_rotation = -0.120529
+rect_scale = Vector2( 1.50313, 1.70503 )
+text = "Hello, person; if you can see this, than this server is perfectly allowing me to cast Godot to the web. Cool!"
